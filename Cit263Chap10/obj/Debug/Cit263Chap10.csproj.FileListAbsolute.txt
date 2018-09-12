@@ -1,0 +1,7 @@
+C:\Users\bennett253\Documents\C#Repo\Cit263Chap10\Cit263Chap10\bin\Debug\Cit263Chap10.exe.config
+C:\Users\bennett253\Documents\C#Repo\Cit263Chap10\Cit263Chap10\bin\Debug\Cit263Chap10.exe
+C:\Users\bennett253\Documents\C#Repo\Cit263Chap10\Cit263Chap10\bin\Debug\Cit263Chap10.pdb
+C:\Users\bennett253\Documents\C#Repo\Cit263Chap10\Cit263Chap10\obj\Debug\Cit263Chap10.csprojAssemblyReference.cache
+C:\Users\bennett253\Documents\C#Repo\Cit263Chap10\Cit263Chap10\obj\Debug\Cit263Chap10.csproj.CoreCompileInputs.cache
+C:\Users\bennett253\Documents\C#Repo\Cit263Chap10\Cit263Chap10\obj\Debug\Cit263Chap10.exe
+C:\Users\bennett253\Documents\C#Repo\Cit263Chap10\Cit263Chap10\obj\Debug\Cit263Chap10.pdb
