@@ -25,6 +25,8 @@ namespace Cit263Chap10
             myMachine.SetupItem(5, 300, "Souls of the Damnned", 10);
 
             myMachine.DisplayInventory();
+
+            myMachine.Shop();
         }
 
 
@@ -129,11 +131,30 @@ namespace Cit263Chap10
         public void Shop()
         {
             int i = 0;
+            int userIn = -1;
+            int currentSelection = -1;
             foreach (Item item in inventory)
             {
                 ++i;
                 Console.WriteLine(i + "] " + item.Name + " : " + item.Price);
             }
+            Console.WriteLine("Please use the number keys to select your item. 1-5 for items, 0 to exit.");
+            while(userIn != 0)
+            {
+                userIn = int.Parse(Console.ReadLine());
+                if(userIn > 0 && userIn <= 5)
+                {
+                    Console.WriteLine(inventory[userIn].Name + " costs: " + inventory[userIn].Price + ". There are: " + inventory[userIn].Quantity + " within this machine. Would you like to buy some? 1 for yes, 2 for no.");
+                    currentSelection = userIn;
+                    userIn = int.Parse(Console.ReadLine());
+                    if(userIn == 1)
+                    {
+
+                    }
+                }
+            
+            }
         }
+
     }
 }
